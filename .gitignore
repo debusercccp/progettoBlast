@@ -1,0 +1,96 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.cpython-*.pyc
+*.so
+*.egg-info/
+*.egg
+
+# Virtualenv
+venv/
+env/
+ENV/
+
+# ===========================
+# Logs e runtime
+# ===========================
+*.log
+*.out
+*.err
+*.tmp
+*.pid
+
+# ===========================
+# File di ambiente / secrets
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.example
+env.txt
+env.example.txt
+
+# ===========================
+# Editor / OS
+# ===========================
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===========================
+# Node / frontend
+# ===========================
+node_modules/
+dist/
+build/
+package-lock.json
+
+# ===========================
+# Pytest / test
+# ===========================
+.cache/
+*.pytest_cache/
+lastfailed
+nodeids
+
+# ===========================
+# Docker / container
+# ===========================
+docker/logs/
+
+# ===========================
+# Sequenze FASTA / file grandi
+# ===========================
+*.fa
+*.fasta
+*.pmol.*
+
+# ===========================
+# File Git interni e pack
+# ===========================
+*.pack
+*.idx
+*.rev
+packed-refs
+HEAD
+index
+description
+exclude
+config
+COMMIT_EDITMSG
+master
+
+# ===========================
+# Documentazione o backup generati
+# ===========================
+*.bak
+*.tmp
+*.old
+
