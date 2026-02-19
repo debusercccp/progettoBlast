@@ -1,0 +1,19 @@
+```gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dati e Genomi
+genomes/*
+!genomes/.gitkeep
+
+# Log e Risultati
+debug_blast.log
+results.json
+*.log
+
+# Sistema
+.DS_Store
